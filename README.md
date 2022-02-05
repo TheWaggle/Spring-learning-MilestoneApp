@@ -46,4 +46,5 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 
 ### Web開発 リクエストとレスポンス
 [WEBの仕組み:MDN](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+* 必読:クライアントとサーバーの仕組み
 
