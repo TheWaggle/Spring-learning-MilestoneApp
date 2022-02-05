@@ -48,3 +48,6 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 [WEBの仕組み:MDN](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
 * 必読:クライアントとサーバーの仕組み
 
+### Web開発 テンプレートエンジン
+* [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf_ja.html)
+* [TopPageの作成](/TOPPAGEの作成.md)
