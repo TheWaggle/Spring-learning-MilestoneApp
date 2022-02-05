@@ -35,3 +35,15 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
         * security
         * spring session
 
+## トップページの作成
+### index.htmlの作成
+
+* src/main/resources/templates/index.html
+
+### indexControllerの作成
+
+* src/main/java/com/example/mils/demo/IndexController.java
+
+### Web開発 リクエストとレスポンス
+[WEBの仕組み:MDN](https://developer.mozilla.org/ja/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+
