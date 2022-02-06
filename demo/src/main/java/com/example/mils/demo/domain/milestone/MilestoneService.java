@@ -15,4 +15,8 @@ public class MilestoneService {
     public List<MilestoneEntity> findAll() {
         return milestoneRepository.findAll();
     }
+
+    public void create(String milestone, String description){
+        milestoneRepository.insert(milestone, description);
+    }
 }
