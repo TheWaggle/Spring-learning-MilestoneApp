@@ -7,14 +7,14 @@
 <body>
 <h1>マイルストーンアプリケーション</h1>
 <a href="./milestones/list.html" th:href="@{/milestones}">マイルストーンページ</a>
-<form>
+<form action="#" th:action="@{/milestones/}" th:method="post" th:object="${milestoneForm}">
     <div>
         <label for="milestoneInput">概要</label>
-        <input type="text" id="milestoneInput">
+        <input type="text" id="milestoneInput" th:field="*{milestone}">
     </div>
     <div>
         <label for="descriptionInput">説明</label>
-        <textarea id="descriptionInput" row="10"></textarea>
+        <textarea id="descriptionInput" row="10" th:field="*{description}"></textarea>
     </div>
     <div>
         <button type="submit">作成</button>

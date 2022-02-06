@@ -5,24 +5,33 @@ import com.example.mils.demo.domain.milestone.MilestoneService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 import lombok.RequiredArgsConstructor;
 
 @Controller
+@RequestMapping("/milestones")
 @RequiredArgsConstructor
 public class MilestoneController {
 
     private final MilestoneService milestoneService;
 
     //GET /milestones
-    @GetMapping("/milestones")
+    @GetMapping
     public String showList(Model model) {
         model.addAttribute("milestoneList", milestoneService.findAll()); 
         return "milestones/list";
     }
 
-    @GetMapping("milestones/creationForm")
-    public String showCreationForm() {
+    @GetMapping("/creationForm")
+    public String showCreationForm(@ModelAttribute MilestoneForm form) {
         return "milestones/creationForm";
+    }
+
+    @PostMapping
+    public String create(MilestoneForm form, Model model){
+        return showList(model);
     }
 }
