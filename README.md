@@ -71,3 +71,8 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 * [lombok](https://projectlombok.org/)
 * [lombok使い方tips](/DESCRIPTION/Lombok.md)
 
+### ３層アーキテクチャによるリファクタリング v0.2.1
+
+* [3層アーキテクチャ](/DESCRIPTION/3層アーキテクチャ.md)とは
+* /Users/yosuke-nk/Documents/LangJava/Spring-learning-MilestoneApp/demo/src/main/java/com/example/mils/demo/domain/milestone/MilestoneService.java にクラスを追加
+
