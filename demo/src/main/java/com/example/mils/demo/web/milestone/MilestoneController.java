@@ -1,8 +1,5 @@
 package com.example.mils.demo.web.milestone;
 
-import java.util.List;
-
-import com.example.mils.demo.domain.milestone.MilestoneEntity;
 import com.example.mils.demo.domain.milestone.MilestoneService;
 
 import org.springframework.stereotype.Controller;

@@ -76,3 +76,11 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 * [3層アーキテクチャ](/DESCRIPTION/3層アーキテクチャ.md)とは
 * /Users/yosuke-nk/Documents/LangJava/Spring-learning-MilestoneApp/demo/src/main/java/com/example/mils/demo/domain/milestone/MilestoneService.java にクラスを追加
 
+
+### D I:Dependency Injection v0.2.2
+* [Dependency Injection](/DESCRIPTION/DependencyInjection.md)
+
+### 依存関係の追加 v0.2.3
+* [依存関係の追加の方法](/DESCRIPTION/依存関係の追加.md)
+
+
