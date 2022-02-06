@@ -20,4 +20,9 @@ public class MilestoneController {
         model.addAttribute("milestoneList", milestoneService.findAll()); 
         return "milestones/list";
     }
+
+    @GetMapping("milestones/creationForm")
+    public String showCreationForm() {
+        return "milestones/creationForm";
+    }
 }
