@@ -21,6 +21,6 @@ public class MilestoneController {
         );
         model.addAttribute("milestoneList", milestoneList); //このメソッドを使うと、thymleafにmodelのオブジェクトを渡せる
         //第１引数は、thymeleafが参照するキーを記入、第２引数は、thymeleafに渡すオブジェクトを指定する
-        return "milestone/list"; //view名を渡す 今回は milestone/list を準備する
+        return "milestones/list"; //view名を渡す 今回は milestone/list を準備する
     }
 }
