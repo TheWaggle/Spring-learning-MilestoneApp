@@ -102,4 +102,11 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 ### バリデーションの実装 v0.2.9
 * [バリデーションの実装](/DESCRIPTION/バリデーションの実装.md)
 
+### 課題2:Milestone詳細画面の追加
+* 課題詳細画面をView,Contoller,Serviceを追加してそれぞれリンクを貼ってください。
+* [課題2](/MISSION/mission-2-詳細画面の追加.md)
+
+### Bootstrapの追加 v0.3
+* [フラグメント](/DESCRIPTION/フラグメント.md)
+
 

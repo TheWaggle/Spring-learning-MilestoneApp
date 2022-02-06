@@ -23,4 +23,8 @@ public class MilestoneService {
         milestoneRepository.insert(milestone, description);
         
     }
+
+    public MilestoneEntity findById(long milestoneId){
+        return milestoneRepository.findById(milestoneId);
+    }
 }

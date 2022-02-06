@@ -14,4 +14,7 @@ public interface MilestoneRepository {
 
     @Insert("insert into milestones (milestone, description) values (#{milestone}, #{description})")
     void insert(String milestone, String description);
+
+    @Select("select * from milestones where id = #{milestoneId}")
+    MilestoneEntity findById(long milestoneId);
 }

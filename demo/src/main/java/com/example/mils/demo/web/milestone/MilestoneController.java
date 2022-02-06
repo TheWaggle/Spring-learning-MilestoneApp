@@ -1,5 +1,6 @@
 package com.example.mils.demo.web.milestone;
 
+import com.example.mils.demo.domain.milestone.MilestoneEntity;
 import com.example.mils.demo.domain.milestone.MilestoneService;
 
 import org.springframework.stereotype.Controller;
@@ -8,6 +9,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -39,5 +41,11 @@ public class MilestoneController {
         }
         milestoneService.create(form.getMilestone(), form.getDescription());
         return "redirect:/milestones";
+    }
+
+    @GetMapping("/{milestoneId}")
+    public String showDetail(@PathVariable("milestoneId") long milestoneId, Model model){
+        model.addAttribute("milestone", milestoneService.findById(milestoneId));
+        return "milestones/detail";
     }
 }
