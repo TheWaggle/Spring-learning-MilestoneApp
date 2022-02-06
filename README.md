@@ -107,7 +107,8 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 * [課題2](/MISSION/mission-2-詳細画面の追加.md)
 
 ### Bootstrapの追加 v0.3
-* [フラグメント](/DESCRIPTION/フラグメント.md)
+* [フラグメント](/DESCRIPTION/フラグメント.md) v0.3.1
+* [Bootstarp](/DESCRIPTION/Bootstarp.md) v0.3.2
 
 
 
