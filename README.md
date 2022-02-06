@@ -59,3 +59,5 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
     * [Debugとwatchのやり方](/DESCRIPTION/Debugとwatchのやり方.md)
 4. /Users/yosuke-nk/Documents/LangJava/Spring-learning-MilestoneApp/demo/src/main/resources/templates/milestones/list.html を作成
     * [xmlnsの追加の書き方](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf_ja.html#%E8%A4%87%E6%95%B0%E8%A8%80%E8%AA%9E%E3%81%A7%E3%82%A6%E3%82%A7%E3%83%AB%E3%82%AB%E3%83%A0)
+5. Viewにリンクを貼る
+    * [ページ間のリンク作成](/DESCRIPTION/ページ間のリンク作成.md) 
