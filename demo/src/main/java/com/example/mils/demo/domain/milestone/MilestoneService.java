@@ -2,6 +2,9 @@ package com.example.mils.demo.domain.milestone;
 
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class MilestoneService {
     
     public List<MilestoneEntity> findAll() {

@@ -9,10 +9,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import lombok.RequiredArgsConstructor;
+
 @Controller
+@RequiredArgsConstructor
 public class MilestoneController {
 
-    private final MilestoneService milestoneService = new MilestoneService();
+    private final MilestoneService milestoneService;
 
     //GET /milestones
     @GetMapping("/milestones")
