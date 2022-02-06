@@ -33,6 +33,6 @@ public class MilestoneController {
     @PostMapping
     public String create(MilestoneForm form, Model model){
         milestoneService.create(form.getMilestone(), form.getDescription());
-        return showList(model);
+        return "redirect:/milestones";
     }
 }

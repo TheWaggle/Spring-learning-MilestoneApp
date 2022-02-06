@@ -95,3 +95,7 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 
 ### DBへ登録永続化 v0.2.7
 * [データ保存](/DESCRIPTION/データ保存.md)
+
+### 2重Submit対策 v0.2.8
+* [2重submit対策](/DESCRIPTION/2重サブミット対策.md)
+
