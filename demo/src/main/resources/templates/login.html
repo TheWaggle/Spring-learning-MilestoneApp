@@ -17,6 +17,9 @@
     <div class="mt-3">
         <button type="submit" class="btn btn-primary">ログイン</button>
     </div>
+    <div th:if="${param.error}">
+        <p class="text-danger">ユーザー名もしくはパスワードが違います</p>
+    </div>    
 </form>
 </body>
 </html>
