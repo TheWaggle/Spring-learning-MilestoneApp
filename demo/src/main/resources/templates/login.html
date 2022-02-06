@@ -4,7 +4,19 @@
     <title>ログインページ | マイルストーンアプリケーション</title>
 </head>
 <body>
-<h1>マイルストーンアプリケーション</h1>
-仮のログインページ
+<h1>ログインページ</h1>
+<form action="" th:action="@{/login}" method="post">
+    <div class="mt-3">
+        <label for="userName" class="form-label">ユーザー名</label>
+        <input type="text" id="userName" name="username" class="form-control">
+    </div>
+    <div class="mt-3">
+        <label for="password" class="form-label">パスワード</label>
+        <input type="password" id="password" name="password" class="form-control">
+    </div>
+    <div class="mt-3">
+        <button type="submit" class="btn btn-primary">ログイン</button>
+    </div>
+</form>
 </body>
 </html>
