@@ -81,6 +81,8 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 * [Dependency Injection](/DESCRIPTION/DependencyInjection.md)
 
 ### 依存関係の追加 v0.2.3
+* h2インメモリデータベースの設定とDBの準備
 * [依存関係の追加の方法](/DESCRIPTION/依存関係の追加.md)
+
 
 
