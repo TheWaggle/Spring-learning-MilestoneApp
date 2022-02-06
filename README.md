@@ -1,7 +1,7 @@
 # Spring-learning-MilestoneApp
 MilestoneAppの開発工程を元にSpringの使い方を学びます。
 
-## 開発環境のセットアップ 
+## 開発環境のセットアップ v0.1
 1. [Visual Studio Code インストール](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
 2. [拡張機能の追加](https://marketplace.visualstudio.com/items?itemName=Pivotal.vscode-boot-dev-pack)
     ![Spring Extension-pack](/README-assets/spring-extension-pack.png)
@@ -11,6 +11,10 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
     ![Cloudfoundry](/README-assets/CloudfoundryManifestYMLSupport.png)
 
     ![日本語化パック](/README-assets/日本語化.png)
+
+    ![lombok拡張機能](/README-assets/lombok-拡張.png)
+
+    ![java Extensions-pack](/README-assets/java-extensions-pack.png)
 
 ## Spring Boot App 作成手順
 1. [Ctrl + Shift + P]ショートカットキー または、[表示 -> Command palete]を選択
@@ -61,3 +65,9 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
     * [xmlnsの追加の書き方](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf_ja.html#%E8%A4%87%E6%95%B0%E8%A8%80%E8%AA%9E%E3%81%A7%E3%82%A6%E3%82%A7%E3%83%AB%E3%82%AB%E3%83%A0)
 5. Viewにリンクを貼る
     * [ページ間のリンク作成](/DESCRIPTION/ページ間のリンク作成.md) 
+
+### Lombokを使ったリファクタリング v0.2
+
+* [lombok](https://projectlombok.org/)
+* [lombok使い方tips](/DESCRIPTION/Lombok.md)
+
