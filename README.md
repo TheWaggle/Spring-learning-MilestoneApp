@@ -99,3 +99,7 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 ### 2重Submit対策 v0.2.8
 * [2重submit対策](/DESCRIPTION/2重サブミット対策.md)
 
+### バリデーションの実装 v0.2.9
+* [バリデーションの実装](/DESCRIPTION/バリデーションの実装.md)
+
+

@@ -11,10 +11,12 @@
     <div>
         <label for="milestoneInput">概要</label>
         <input type="text" id="milestoneInput" th:field="*{milestone}">
+        <p th:if="${#fields.hasErrors('milestone')}" th:errors="*{milestone}">(error)</p>
     </div>
     <div>
         <label for="descriptionInput">説明</label>
         <textarea id="descriptionInput" row="10" th:field="*{description}"></textarea>
+        <p th:if="${#fields.hasErrors('description')}" th:errors="*{description}">(error)</p>
     </div>
     <div>
         <button type="submit">作成</button>
