@@ -51,3 +51,10 @@ MilestoneAppの開発工程を元にSpringの使い方を学びます。
 ### Web開発 テンプレートエンジン
 * [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf_ja.html)
 * [TopPageの作成](/TOPPAGEの作成.md)
+
+### ModelとControllerとViewの作成
+1. src/main/java/com/example/mils/demo/domain/milestone/MilestoneEntity.java を作成
+2. src/main/java/com/example/mils/demo/web/milestone/MilestoneController.java を作成
+3. src/main/java/com/example/mils/demo/web/IndexController.java に移動
+
+* [Debugとwatchのやり方](/Debugとwatchのやり方.md)
