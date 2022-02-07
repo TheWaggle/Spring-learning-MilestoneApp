@@ -2,6 +2,8 @@ package com.example.mils.demo.web.user;
 
 import javax.validation.constraints.NotBlank;
 
+import com.example.mils.demo.web.validation.UniqueUserName;
+
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
@@ -10,6 +12,7 @@ import lombok.Data;
 public class UserForm {
 
     @NotBlank
+    @UniqueUserName
     private String username;
 
     @NotBlank
