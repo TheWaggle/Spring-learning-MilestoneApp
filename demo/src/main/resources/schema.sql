@@ -1,5 +1,10 @@
-create table milestones (
+CREATE TABLE milestones (
 id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 milestone VARCHAR(256) NOT NULl,
 description VARCHAR(256) NOT NULl
+);
+
+CREATE TABLE users ( 
+    username VARCHAR(128) NOT NULL PRIMARY KEY, 
+    password VARCHAR(256) NOT NULL 
 );
