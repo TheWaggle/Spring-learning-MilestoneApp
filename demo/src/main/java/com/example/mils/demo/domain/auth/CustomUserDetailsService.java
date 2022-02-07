@@ -7,17 +7,29 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
+import lombok.RequiredArgsConstructor;
+
 
 @Service
+@RequiredArgsConstructor
 public class CustomUserDetailsService implements UserDetailsService {
+
+    private final UserRepository userRepository;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        if ("user".equals(username)) {
-            return new CustomUserDetails("user", "password", Collections.emptyList());
-        }
-        throw new UsernameNotFoundException(
-            "username is not found. username:'" + username 
+        return userRepository.findByUserName(username)
+            .map(
+                user -> new CustomUserDetails(
+                        user.getUsername(), 
+                        user.getPassword(), 
+                        Collections.emptyList() //現時点は仮実装
+                        )
+            )
+            .orElseThrow(
+                () -> new UsernameNotFoundException(
+                    "username is not found :" + username
+                )
             );
     }
 }
